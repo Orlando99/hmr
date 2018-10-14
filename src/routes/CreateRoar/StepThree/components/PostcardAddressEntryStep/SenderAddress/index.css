@@ -1,0 +1,42 @@
+.senderAddress {
+  margin: 0; }
+  .senderAddress label {
+    font-size: 10px;
+    color: #bebebe;
+    text-transform: uppercase; }
+  .senderAddress input {
+    font-family: GothamLight;
+    font-size: 14px;
+    line-height: 1.43;
+    color: #2a2a2a;
+    border-radius: 10px;
+    border: none;
+    width: 91.7%;
+    margin-bottom: 13px;
+    margin-top: 5px;
+    outline: none;
+    padding-left: 2.9%;
+    padding-right: 5.4%;
+    padding-top: 11px;
+    padding-bottom: 9px; }
+  .senderAddress .cityField {
+    width: 64%;
+    float: left; }
+  .senderAddress .stateField {
+    width: 34%;
+    float: right; }
+    .senderAddress .stateField select {
+      outline: none;
+      border: none;
+      border-radius: 10px;
+      padding-top: 13px;
+      padding-bottom: 12px;
+      padding-left: 5%;
+      margin-top: 5px;
+      width: 100%;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      background-image: url(../../../../../../assets/images/dropdown.svg);
+      background-position: 90% center;
+      background-repeat: no-repeat; }

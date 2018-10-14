@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>ic/arrow/start-over</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="ic/arrow/start-over" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-19">
+            <g>
+                <rect id="Rectangle-9" x="0" y="0" width="16" height="16"></rect>
+                <g id="Group-18" transform="translate(2.000000, 1.500000)" stroke="#353535" stroke-linecap="round"
+                   stroke-width="2">
+                    <path d="M1.21889165,9.97251188 C2.35035957,11.7919997 4.34476655,13 6.61627019,13 C10.1419068,13 13,10.0898509 13,6.5 C13,2.91014913 10.1419068,0 6.61627019,0 C4.19013428,0 2.08010577,1.37806722 1,3.40738527"
+                          id="Oval"></path>
+                    <polyline id="Path-7" stroke-linejoin="round" points="0 0 0 4 4 4"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

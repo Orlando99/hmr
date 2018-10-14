@@ -1,0 +1,21 @@
+{
+  "name": "hmr-web",
+  "type": "static",
+  "static": {
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  },
+  "alias": [
+    "hmr-dev",
+    "hmr-qa",
+    "hmr-stage",
+    "hearmyroarnow.org",
+    "hearmyroar.org"
+  ],
+  "public": false,
+  "forwardNpm": true
+}

@@ -1,0 +1,16 @@
+.createPostcardMessage .optins {
+  margin: 20px 0 -70px 25px; }
+  .createPostcardMessage .optins .row {
+    margin-bottom: 5px; }
+    .createPostcardMessage .optins .row .paragraph {
+      margin-left: 5px; }
+      .createPostcardMessage .optins .row .paragraph h3 {
+        font-size: 12px;
+        color: #2a2a2a;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 5px; }
+      .createPostcardMessage .optins .row .paragraph p {
+        font-size: 12px; }
+        .createPostcardMessage .optins .row .paragraph p span {
+          text-decoration: underline; }

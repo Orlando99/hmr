@@ -1,0 +1,216 @@
+/* Hight class for preview card */
+.createPostcardMessage .content .rightpart {
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  height: 250px; }
+  .createPostcardMessage .content .rightpart .userinfo {
+    width: 62.1%;
+    background-color: #f4f4f4;
+    margin: 7.6px 0 7.3px 2.5%;
+    float: left; }
+    .createPostcardMessage .content .rightpart .userinfo .userinfo_top {
+      margin: 0 5.7px 0 14.2px;
+      padding: 14.2px 0 0;
+      position: relative; }
+      .createPostcardMessage .content .rightpart .userinfo .userinfo_top .avatar_part {
+        float: left;
+        width: 56.8px;
+        height: 56.8px;
+        padding: 2.8px;
+        z-index: 1000;
+        position: relative;
+        float: left;
+        background-color: #f4f4f4; }
+        .createPostcardMessage .content .rightpart .userinfo .userinfo_top .avatar_part .avatar {
+          width: 51.2px;
+          height: 51.2px;
+          background-color: rgba(230, 230, 230, 0.4);
+          border-radius: 50%;
+          border: 2px solid rgba(255, 255, 255, 0.4);
+          overflow: hidden; }
+          .createPostcardMessage .content .rightpart .userinfo .userinfo_top .avatar_part .avatar img {
+            width: 100%;
+            height: 100%; }
+      .createPostcardMessage .content .rightpart .userinfo .userinfo_top .userinfo1 {
+        height: auto;
+        min-height: 12px;
+        font-size: 6px;
+        background-color: rgba(230, 230, 230, 0.4);
+        z-index: 999;
+        margin: 0;
+        position: relative; }
+        .createPostcardMessage .content .rightpart .userinfo .userinfo_top .userinfo1.nobg {
+          background: none !important; }
+      .createPostcardMessage .content .rightpart .userinfo .userinfo_top .userinfo2 {
+        min-height: 123px;
+        z-index: 999;
+        background-color: rgba(230, 230, 230, 0.4);
+        position: relative;
+        margin-top: 9.5px;
+        margin-bottom: 14.2px; }
+      .createPostcardMessage .content .rightpart .userinfo .userinfo_top p.description {
+        min-height: 135px;
+        font-size: 6px;
+        overflow-wrap: break-word;
+        white-space: pre-wrap;
+        line-height: 1.5; }
+    .createPostcardMessage .content .rightpart .userinfo .userinfo_bottom p, .createPostcardMessage .content .rightpart .userinfo .userinfo_bottom h3 {
+      background: #2a2a2a;
+      opacity: 1;
+      color: #fff; }
+      .createPostcardMessage .content .rightpart .userinfo .userinfo_bottom p b, .createPostcardMessage .content .rightpart .userinfo .userinfo_bottom h3 b {
+        font-family: GothamBold; }
+    .createPostcardMessage .content .rightpart .userinfo .userinfo_bottom h3 {
+      font-size: 12px;
+      height: 12px;
+      padding: 9.2px 0 14.8px 16.7px;
+      margin: 0 0 1.6px;
+      letter-spacing: 0.1px;
+      color: #ffffff;
+      font-family: GothamLighter; }
+  .createPostcardMessage .content .rightpart .assets_container {
+    position: relative;
+    opacity: 1;
+    height: 100%;
+    width: 32.2%;
+    float: left;
+    margin: 0 1.6%; }
+    .createPostcardMessage .content .rightpart .assets_container .avatar {
+      margin-bottom: 20px; }
+      .createPostcardMessage .content .rightpart .assets_container .avatar img {
+        margin-top: 24px;
+        margin-left: 35.1px; }
+    .createPostcardMessage .content .rightpart .assets_container .rectangle {
+      width: 100%;
+      height: 28.1px;
+      background-color: #e6e6e6; }
+    .createPostcardMessage .content .rightpart .assets_container .address_part {
+      font-family: GothamLight;
+      font-size: 6px; }
+      .createPostcardMessage .content .rightpart .assets_container .address_part b {
+        font-family: GothamBold; }
+    .createPostcardMessage .content .rightpart .assets_container .logos {
+      margin-top: 70px; }
+      .createPostcardMessage .content .rightpart .assets_container .logos img {
+        margin-right: 5%; }
+
+.rightpart {
+  position: relative;
+  height: 225px;
+  margin-bottom: 30px !important; }
+  .rightpart .button {
+    position: absolute;
+    bottom: -20px;
+    text-transform: uppercase;
+    font-size: 10px;
+    width: auto;
+    padding: 0; }
+    .rightpart .button.changemsg {
+      left: 0; }
+    .rightpart .button.flipcard {
+      right: 0; }
+  .rightpart .content_flip {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+    transform-style: preserve-3d; }
+    .rightpart .content_flip .frontside, .rightpart .content_flip .backside {
+      position: absolute;
+      backface-visibility: hidden;
+      width: 100%; }
+    .rightpart .content_flip .frontside {
+      background: white;
+      border-radius: 10px; }
+    .rightpart .content_flip .backside {
+      background: #fff;
+      overflow: hidden;
+      color: white;
+      border-radius: 5px;
+      transform: rotateY(180deg);
+      z-index: 10000;
+      height: 100%;
+      text-align: center; }
+      .rightpart .content_flip .backside img {
+        height: 100%; }
+      .rightpart .content_flip .backside.portrait img {
+        transform: rotate(-90deg);
+        width: 150%;
+        height: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto 0 auto -25%; }
+  .rightpart.normal .avatar img {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%; }
+
+.rightpart.flip .content_flip {
+  transform: rotateY(180deg);
+  transition: transform 0.5s; }
+
+.highlight-background {
+  background-color: #edd31c !important; }
+
+@media only screen and (min-width: 767px) {
+  .createPostcardMessage .content .rightpart.desktop .userinfo .userinfo_top p.description {
+    height: auto;
+    overflow: initial;
+    min-height: 220px;
+    font-size: 11px;
+    white-space: pre-wrap;
+    line-height: 1.5; }
+  .createPostcardMessage .content .rightpart.x-large {
+    width: 805px;
+    height: 590px; }
+    .createPostcardMessage .content .rightpart.x-large .userinfo {
+      margin: 20.4px 0 20.1px 2.5%; }
+      .createPostcardMessage .content .rightpart.x-large .userinfo .userinfo_top {
+        margin: 0 15.3px 0 38.2px;
+        padding: 30.6px 0 0; }
+        .createPostcardMessage .content .rightpart.x-large .userinfo .userinfo_top .avatar_part {
+          width: 152.9px;
+          height: 152.9px; }
+          .createPostcardMessage .content .rightpart.x-large .userinfo .userinfo_top .avatar_part .avatar {
+            width: 137.6px;
+            height: 137.6px; }
+        .createPostcardMessage .content .rightpart.x-large .userinfo .userinfo_top p.userinfo1 {
+          height: auto;
+          font-size: 12px;
+          min-height: 30px; }
+        .createPostcardMessage .content .rightpart.x-large .userinfo .userinfo_top p.description {
+          height: auto;
+          min-height: 300px;
+          font-size: 12px;
+          white-space: pre-wrap;
+          line-height: 2; }
+      .createPostcardMessage .content .rightpart.x-large .userinfo .userinfo_bottom p {
+        font-size: 11.9px;
+        height: 12px;
+        padding: 4.2px 0 3.3px 45px;
+        margin: 0 0 4.2px;
+        font-family: GothamLight; }
+      .createPostcardMessage .content .rightpart.x-large .userinfo .userinfo_bottom h3 {
+        font-size: 32.3px;
+        height: 33px;
+        padding: 24.6px 0 40.2px 44.2px; }
+    .createPostcardMessage .content .rightpart.x-large .assets_container .avatar img {
+      height: 119.8px;
+      margin-top: 64.6px;
+      margin-bottom: 26.3px;
+      margin-left: 107px; }
+    .createPostcardMessage .content .rightpart.x-large .assets_container .rectangle {
+      height: 75.6px; }
+    .createPostcardMessage .content .rightpart.x-large .assets_container .address_part {
+      font-size: 12px; }
+    .createPostcardMessage .content .rightpart.x-large .assets_container .logos {
+      margin-top: 186.9px; }
+      .createPostcardMessage .content .rightpart.x-large .assets_container .logos img {
+        height: 51.8px; }
+      .createPostcardMessage .content .rightpart.x-large .assets_container .logos img:first-child {
+        height: 45px; }
+  .createPostcardMessage .content .rightpart.desktop {
+    height: 455px; } }

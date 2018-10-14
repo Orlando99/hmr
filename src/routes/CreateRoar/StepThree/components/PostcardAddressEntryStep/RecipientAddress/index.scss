@@ -1,0 +1,56 @@
+.hmr-recipient-address-container{
+  .address-list, .postcard-summary{
+    background: #fff;
+    border-radius: 10px;
+  }
+  .address-list{
+    margin-bottom: 10px;
+    padding: 20px 5.2%;
+    h3{
+      font-size: 14px;
+      color: #2a2a2a;
+      margin: 0 0 30px;
+    }
+    .hmr-address-row{
+      margin-bottom: 25px;
+      position: relative;
+      .address{
+        margin-left: 34px;
+        p.address-line{
+          font-size: 14px;
+          margin: 4px 0;
+        }
+      }
+      .price{
+        position: absolute;
+        right: 0;
+        top: 0;
+        font-size: 14px;
+        font-family: GothamLight;
+        color: #bebebe;
+      }
+      .price.checked{
+        font-family: GothamBold;
+        color: #2a2a2a;
+      }
+    }
+  }
+  .postcard-summary{
+    padding: 15px 5.2%;
+    .amount{
+      float: left;
+    }
+
+    .total-price{
+      float: right;
+    }
+    span{
+      color: #bebebe;
+    }
+
+    div{
+      font-size: 14px;
+      font-family: GothamBold;
+    }
+  }
+}

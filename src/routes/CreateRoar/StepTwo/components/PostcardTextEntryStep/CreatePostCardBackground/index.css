@@ -1,0 +1,114 @@
+@media only screen and (min-width: 1100px) {
+
+	.rightpart.desktop{
+		display: block;
+		width: 610.5px !important;
+		margin-left: 20px;
+		position: relative;
+	}
+
+	.rightpart.desktop .userinfo{
+		/*background-color: #ffe3c0 !important;*/
+		margin-top: 15.5px !important;
+		margin-bottom: 14.8px !important;
+	}
+
+	.rightpart.desktop .avatar_part{
+		background-color: #ffe3c0;
+	}
+
+	.rightpart.desktop .userinfo_top{
+		padding-top: 23.2px;
+	}
+
+	.rightpart.desktop .avatar_part{
+		width: 116px;
+		height: 116px;
+	}
+
+	.rightpart.desktop .avatar_part .avatar{
+		width: 104.4px;
+		height: 104.4px;
+		background-color: #e6e6e6;
+		border: 5.8px solid #fff;
+	}
+
+	.rightpart.desktop .userinfo1{
+		background: #e6e6e6;
+		height: 24.5px;
+	}
+
+	.rightpart.desktop .userinfo2{
+		background: #e6e6e6;
+		margin-top: 19.3px;
+		height: 193.4px;
+		margin-bottom: 29px;
+	}
+
+	.rightpart.desktop .userinfo_bottom p, .rightpart.desktop .userinfo_bottom h3{
+		opacity: 1;
+		padding-left: 33.5px;
+	}
+
+	.rightpart.desktop .userinfo_bottom p{
+		font-size: 9px;
+		padding-top: 3.2px;
+		height: 11.6px;
+		margin-bottom: 3.2px;
+	}
+
+	.rightpart.desktop .userinfo_bottom h3{
+		font-size: 24.5px;
+		padding-top: 18.7px;
+		padding-bottom: 28.9px;
+		height: 25px;
+	}
+
+	.rightpart.desktop .assets_container .avatar img{
+		margin-top: 49px;
+		margin-bottom: 20px;
+	}
+
+	.rightpart.desktop .assets_container .rectangle{
+		height: 57.4px;
+	}
+
+	.rightpart.desktop .assets_container .logos{
+		margin-top: 141.8px;
+	}
+
+	.rightpart.desktop .assets_container p{
+		font-size: 6.4px;
+		color: #858789;
+		opacity: 0.4;
+		letter-spacing: 0.5px;
+		margin-left: 124.4px;
+	}
+
+	.rightpart.desktop .flipcard{
+		position: absolute;
+		bottom: -23px;
+		right: 0;
+		font-size: 10px;
+		text-transform: uppercase;
+	}
+
+	.leftpart .yellowbutton{
+		margin-bottom: 25px;
+	}
+
+	.centerpart.colorpicker{
+		max-width:174px;
+		padding: 10px 0;
+	}
+
+	.centerpart.colorpicker ul li:nth-of-type(2n){
+		margin-right: 0;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.centerpart ul li:nth-of-type(3n){
+		margin-right: 0;
+	}
+}

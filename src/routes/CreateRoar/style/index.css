@@ -1,0 +1,249 @@
+.createPostcardMessage .flow-done .socialPart {
+  background: #fff;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px; }
+  .createPostcardMessage .flow-done .socialPart .content {
+    padding: 30px 25px; }
+    .createPostcardMessage .flow-done .socialPart .content .leftpart, .createPostcardMessage .flow-done .socialPart .content .rightpart {
+      width: auto;
+      height: auto;
+      margin: 0 !important; }
+    .createPostcardMessage .flow-done .socialPart .content .leftpart h1 {
+      font-size: 18px;
+      margin-top: 15px;
+      text-transform: uppercase; }
+    .createPostcardMessage .flow-done .socialPart .content ul {
+      padding: 0;
+      margin: 0; }
+      .createPostcardMessage .flow-done .socialPart .content ul li {
+        display: inline-block;
+        margin-right: 10px; }
+        .createPostcardMessage .flow-done .socialPart .content ul li .yellowbutton {
+          width: 185px;
+          margin: 0;
+          font-size: 14px;
+          position: relative; }
+          .createPostcardMessage .flow-done .socialPart .content ul li .yellowbutton i {
+            font-size: 30px;
+            position: absolute;
+            left: 17px;
+            top: 10px; }
+            .createPostcardMessage .flow-done .socialPart .content ul li .yellowbutton i.round {
+              border-radius: 50%;
+              width: 30px;
+              height: 18px;
+              padding: 6px 0;
+              background: #2a2a2a;
+              color: #edd31c;
+              font-size: 18px; }
+          .createPostcardMessage .flow-done .socialPart .content ul li .yellowbutton span.facebook {
+            margin-left: 10px; }
+          .createPostcardMessage .flow-done .socialPart .content ul li .yellowbutton span.download {
+            margin-left: 30px; }
+
+.donatePart .rightpart ul {
+  padding: 0;
+  margin-top: -30px;
+  margin-bottom: -30px; }
+  .donatePart .rightpart ul li {
+    display: inline-block;
+    margin-right: 120px; }
+  .donatePart .rightpart ul li:last-child {
+    margin-right: 29.5px; }
+  .donatePart .rightpart ul li .yellowbutton {
+    margin-top: 20px; }
+
+.leftpart.step4 {
+  overflow: hidden; }
+  .leftpart.step4 h3, .leftpart.step4 p, .leftpart.step4 .yellowbutton {
+    display: block !important; }
+  .leftpart.step4 .yellowbutton {
+    margin: 30px auto !important; }
+  .leftpart.step4 .summary-wrap {
+    margin-top: 46px; }
+    .leftpart.step4 .summary-wrap h4 {
+      margin: 0 25px 6px;
+      text-transform: uppercase;
+      font-size: 12px;
+      color: #bebebe; }
+    .leftpart.step4 .summary-wrap p {
+      display: block !important; }
+    .leftpart.step4 .summary-wrap p.recipient {
+      font-size: 11px;
+      margin-bottom: 3px; }
+      .leftpart.step4 .summary-wrap p.recipient span.name {
+        width: 165px; }
+      .leftpart.step4 .summary-wrap p.recipient span.price {
+        float: right; }
+    .leftpart.step4 .summary-wrap .total {
+      margin-top: 96px;
+      background-color: #2a2a2a;
+      padding: 20px 0;
+      font-family: GothamBold;
+      font-size: 12px; }
+      .leftpart.step4 .summary-wrap .total p {
+        text-transform: uppercase;
+        font-family: GothamBold; }
+        .leftpart.step4 .summary-wrap .total p span {
+          float: right; }
+      .leftpart.step4 .summary-wrap .total .discount {
+        color: #9d9d9d;
+        margin-bottom: 10px !important; }
+      .leftpart.step4 .summary-wrap .total .estimated {
+        color: #ffffff; }
+
+.createPostcardMessage .mainpart.flow-done {
+  margin-top: 0;
+  margin-bottom: -70px;
+  padding: 0; }
+  .createPostcardMessage .mainpart.flow-done .home_content {
+    background: #fff; }
+    .createPostcardMessage .mainpart.flow-done .home_content .rightpart {
+      width: auto;
+      height: auto; }
+    .createPostcardMessage .mainpart.flow-done .home_content .leftpart {
+      width: auto; }
+      .createPostcardMessage .mainpart.flow-done .home_content .leftpart p {
+        font-size: 16px;
+        margin: 0;
+        display: block; }
+      .createPostcardMessage .mainpart.flow-done .home_content .leftpart .yellowbutton {
+        margin-top: 55px; }
+
+.createPostcardMessage .mainpart .content_container .flow-done-header {
+  text-align: center; }
+  .createPostcardMessage .mainpart .content_container .flow-done-header h3 {
+    font-size: 40px;
+    color: #2a2a2a;
+    padding-top: 70px;
+    text-transform: uppercase;
+    margin-top: 0; }
+
+.step4_submit_footer .bottom_part {
+  display: none; }
+
+@media only screen and (min-width: 767px) {
+  .createPostcardMessage {
+    padding-bottom: 0; }
+    .createPostcardMessage .flow-done.flow-error {
+      padding-top: 30px; }
+    .createPostcardMessage .flow-done .leftpart {
+      margin-bottom: 30px; }
+    .createPostcardMessage .flow-done .centerpart.x-large {
+      width: 804px;
+      text-align: center; }
+      .createPostcardMessage .flow-done .centerpart.x-large img {
+        margin-top: 54px;
+        margin-bottom: 30px; }
+      .createPostcardMessage .flow-done .centerpart.x-large h3 {
+        margin-top: 0;
+        margin-bottom: 50px;
+        font-size: 16px; }
+      .createPostcardMessage .flow-done .centerpart.x-large .yellowbutton {
+        margin: auto; }
+      .createPostcardMessage .flow-done .centerpart.x-large p {
+        margin-top: 25px;
+        margin-bottom: 53px; }
+        .createPostcardMessage .flow-done .centerpart.x-large p span {
+          color: #4a90e2; } }
+
+@media only screen and (max-width: 500px) {
+  .createPostcardMessage .mainpart .content_container .flow-done-header {
+    text-align: center; }
+    .createPostcardMessage .mainpart .content_container .flow-done-header h3 {
+      font-size: 24px;
+      color: #2a2a2a;
+      padding-top: 40px;
+      text-transform: uppercase; }
+  .wallofroars .rightpart {
+    height: auto; }
+  .step4_content {
+    display: flex;
+    flex-direction: column; }
+    .step4_content .leftpart {
+      order: 3; }
+    .step4_content .centerpart {
+      order: 2; }
+    .step4_content .rightpart {
+      order: 1; }
+  .flow-done .donatePart {
+    display: none; }
+  .flow-done .wallofroars .yellowbutton.viewAll2 {
+    margin-bottom: 60px; }
+  .leftpart.step4 {
+    padding-top: 21px; }
+    .leftpart.step4 h3 {
+      margin-top: 0 !important; }
+    .leftpart.step4 .yellowbutton {
+      width: 180px;
+      height: 12px;
+      font-family: GothamBold;
+      padding: 15px 0 13px 0 !important;
+      font-size: 12px;
+      color: #2a2a2a; }
+  .createPostcardMessage {
+    padding-bottom: 0; }
+    .createPostcardMessage .flow-done .centerpart.x-large {
+      text-align: center;
+      padding: 0; }
+      .createPostcardMessage .flow-done .centerpart.x-large img {
+        margin-top: 50px;
+        margin-bottom: 20px; }
+      .createPostcardMessage .flow-done .centerpart.x-large h3 {
+        margin-top: 0;
+        margin-bottom: 45px;
+        font-size: 14px; }
+      .createPostcardMessage .flow-done .centerpart.x-large .yellowbutton {
+        margin: auto; }
+      .createPostcardMessage .flow-done .centerpart.x-large p {
+        margin-top: 25px;
+        margin-bottom: 53px;
+        font-size: 14px; }
+        .createPostcardMessage .flow-done .centerpart.x-large p span {
+          color: #4a90e2; }
+  .createPostcardMessage .flow-done .socialPart {
+    order: 4; }
+    .createPostcardMessage .flow-done .socialPart .content {
+      background: #fff;
+      padding: 30px 25px 20px;
+      text-align: center;
+      margin-top: 30px; }
+      .createPostcardMessage .flow-done .socialPart .content .leftpart, .createPostcardMessage .flow-done .socialPart .content .rightpart {
+        width: auto;
+        height: auto;
+        margin: 0 !important; }
+      .createPostcardMessage .flow-done .socialPart .content .leftpart h1 {
+        font-size: 24px;
+        margin-top: 10px;
+        margin-bottom: 43px;
+        text-transform: uppercase; }
+      .createPostcardMessage .flow-done .socialPart .content ul {
+        padding: 0;
+        margin: 0; }
+        .createPostcardMessage .flow-done .socialPart .content ul li {
+          display: inline-block;
+          margin: 0 0 20px; }
+          .createPostcardMessage .flow-done .socialPart .content ul li .yellowbutton {
+            width: 185px;
+            font-size: 12px;
+            height: 12px;
+            padding: 14px 0 !important;
+            position: relative;
+            text-align: left; }
+            .createPostcardMessage .flow-done .socialPart .content ul li .yellowbutton i {
+              font-size: 30px;
+              position: absolute;
+              left: 10px;
+              top: 5px;
+              text-align: center; }
+              .createPostcardMessage .flow-done .socialPart .content ul li .yellowbutton i.round {
+                border-radius: 50%;
+                width: 30px;
+                height: 18px;
+                padding: 6px 0;
+                background: #2a2a2a;
+                color: #edd31c;
+                font-size: 18px; }
+            .createPostcardMessage .flow-done .socialPart .content ul li .yellowbutton span {
+              margin-left: 52px !important; } }

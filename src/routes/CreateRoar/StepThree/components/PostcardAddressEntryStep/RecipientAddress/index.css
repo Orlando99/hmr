@@ -1,0 +1,41 @@
+.hmr-recipient-address-container .address-list, .hmr-recipient-address-container .postcard-summary {
+  background: #fff;
+  border-radius: 10px; }
+
+.hmr-recipient-address-container .address-list {
+  margin-bottom: 10px;
+  padding: 20px 5.2%; }
+  .hmr-recipient-address-container .address-list h3 {
+    font-size: 14px;
+    color: #2a2a2a;
+    margin: 0 0 30px; }
+  .hmr-recipient-address-container .address-list .hmr-address-row {
+    margin-bottom: 25px;
+    position: relative; }
+    .hmr-recipient-address-container .address-list .hmr-address-row .address {
+      margin-left: 34px; }
+      .hmr-recipient-address-container .address-list .hmr-address-row .address p.address-line {
+        font-size: 14px;
+        margin: 4px 0; }
+    .hmr-recipient-address-container .address-list .hmr-address-row .price {
+      position: absolute;
+      right: 0;
+      top: 0;
+      font-size: 14px;
+      font-family: GothamLight;
+      color: #bebebe; }
+    .hmr-recipient-address-container .address-list .hmr-address-row .price.checked {
+      font-family: GothamBold;
+      color: #2a2a2a; }
+
+.hmr-recipient-address-container .postcard-summary {
+  padding: 15px 5.2%; }
+  .hmr-recipient-address-container .postcard-summary .amount {
+    float: left; }
+  .hmr-recipient-address-container .postcard-summary .total-price {
+    float: right; }
+  .hmr-recipient-address-container .postcard-summary span {
+    color: #bebebe; }
+  .hmr-recipient-address-container .postcard-summary div {
+    font-size: 14px;
+    font-family: GothamBold; }

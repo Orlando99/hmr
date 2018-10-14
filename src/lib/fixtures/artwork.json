@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "url": "https://s3.amazonaws.com/hmr-web-prod/artwork/01_HMR_PC_Artwork_Copyright_FedUp.jpg",
+    "description": "Rally 2017, Washington D.C.",
+    "link": false,
+    "credit": "FED UP!",
+    "type": "landscape"
+  },
+  {
+    "id": 2,
+    "url": "https://s3.amazonaws.com/hmr-web-prod/artwork/HMR_PC_Artwork_AngelicaHelewa_Copyright_01.jpg",
+    "description": "",
+    "link": "www.theartofrecoveryfilmfestival.com",
+    "credit": "Angelica Helewa",
+    "type": "portrait"
+  },
+  {
+    "id": 3,
+    "url": "https://s3.amazonaws.com/hmr-web-prod/artwork/HMR_PC_Artwork_AngelicaHelewa_Copyright_02.jpg",
+    "description": "",
+    "link": "www.theartofrecoveryfilmfestival.com",
+    "credit": "Angelica Helewa",
+    "type": "landscape"
+  },
+  {
+    "id": 4,
+    "url": "https://s3.amazonaws.com/hmr-web-prod/artwork/HMR_PC_Artwork_CatherineMartin_Copyright_PortraintsOfLoss.jpg",
+    "description": "Portraits of Loss",
+    "link": false,
+    "credit": "Catherine Martin",
+    "type": "landscape"
+  },
+  {
+    "id": 5,
+    "url": "https://s3.amazonaws.com/hmr-web-prod/artwork/HMR_PC_Artwork_CatherineMartin_Copyright_SeedsOfHope.JPG",
+    "description": "Seeds of Hope",
+    "link": false,
+    "credit": "Catherine Martin",
+    "type": "landscape"
+  },
+  {
+    "id": 6,
+    "url": "https://s3.amazonaws.com/hmr-web-prod/artwork/HMR_PC_Artwork_JulieTurner_Copyright_AgonyOfGrief.jpg",
+    "description": "The Agony of Addiction",
+    "link": "www.theartofrecoveryfilmfestival.com",
+    "credit": "Julie Turner",
+    "type": "portrait"
+  },
+  {
+    "id": 7,
+    "url": "https://s3.amazonaws.com/hmr-web-prod/artwork/HMR_PC_Artwork_JulieTurner_Copyright_FacingGrief.jpg",
+    "description": "Facing Grief",
+    "link": "www.theartofrecoveryfilmfestival.com",
+    "credit": "Julie Turner",
+    "type": "portrait"
+  },
+  {
+    "id": 8,
+    "url": "https://s3.amazonaws.com/hmr-web-prod/artwork/HMR_PC_Artwork_Manny_Copyright_01.jpg",
+    "description": "",
+    "link": "www.theartofrecoveryfilmfestival.com",
+    "credit": "Manny Mendez",
+    "type": "landscape"
+  },
+  {
+    "id": 9,
+    "url": "https://s3.amazonaws.com/hmr-web-prod/artwork/HMR_PC_Artwork_Manny_Copyright_02.jpg",
+    "description": "",
+    "link": "www.theartofrecoveryfilmfestival.com",
+    "credit": "Manny Mendez",
+    "type": "landscape"
+  },
+  {
+    "id": 10,
+    "url": "https://s3.amazonaws.com/hmr-web-prod/artwork/HMR_PC_Artwork_TheAddictsMom_Copyright01.JPG",
+    "description": "",
+    "link": "www.addictsmom.com",
+    "credit": "The Addicts Mom",
+    "type": "landscape"
+  },
+  {
+    "id": 11,
+    "url": "https://s3.amazonaws.com/hmr-web-prod/artwork/HMR_PC_Artwork_Vic_Copyright_01.jpg",
+    "description": "",
+    "link": "www.theartofrecoveryfilmfestival.com",
+    "credit": "Vic Jones",
+    "type": "landscape"
+  },
+  {
+    "id": 12,
+    "url": "https://s3.amazonaws.com/hmr-web-prod/artwork/HMR_PC_Artwork_Vic_Copyright_02.jpg",
+    "description": "",
+    "link": "www.theartofrecoveryfilmfestival.com",
+    "credit": "Vic Jones",
+    "type": "landscape"
+  },
+  {
+    "id": 13,
+    "url": "https://s3.amazonaws.com/hmr-web-prod/artwork/HMR_PC_Artwork_Xander_Copyright_01.jpg",
+    "description": "",
+    "link": "www.theartofrecoveryfilmfestival.com",
+    "credit": "Xanderr Gonzalez",
+    "type": "landscape"
+  },
+  {
+    "id": 14,
+    "url": "https://s3.amazonaws.com/hmr-web-prod/artwork/HMR_PC_Artwork_Xander_Copyright_02.jpg",
+    "description": "",
+    "link": "www.theartofrecoveryfilmfestival.com",
+    "credit": "Xanderr Gonzalez",
+    "type": "portrait"
+  }
+]

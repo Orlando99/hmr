@@ -1,0 +1,30 @@
+.checkbox-div {
+  position: relative; }
+  .checkbox-div input[type='checkbox'] {
+    position: absolute;
+    opacity: 0;
+    z-index: 10000;
+    margin: 0;
+    width: 25px;
+    height: 25px; }
+  .checkbox-div .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background: url("../../../assets/images/checkbox/unchecked.svg");
+    background-repeat: no-repeat; }
+  .checkbox-div .checkmark.checked {
+    background: url("../../../assets/images/checkbox/checked.svg");
+    background-repeat: no-repeat; }
+
+.input.error {
+  border-radius: 10px; }
+  .input.error input {
+    margin: 0;
+    border-radius: 0 !important; }
+  .input.error .error_str {
+    width: 97%;
+    padding-left: 3%;
+    margin-top: 0; }

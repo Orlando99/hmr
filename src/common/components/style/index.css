@@ -1,0 +1,94 @@
+.mobileMenu {
+  z-index: 10000;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: #000; }
+  .mobileMenu img.close_icon {
+    margin-left: 25px;
+    margin-top: 25px; }
+  .mobileMenu ul {
+    padding: 0;
+    margin-left: 25px;
+    margin-top: 100px;
+    margin-right: 25px; }
+    .mobileMenu ul li {
+      display: block;
+      margin-bottom: 50px; }
+      .mobileMenu ul li a {
+        color: #fff;
+        font-family: GothamBold;
+        font-size: 24px;
+        text-transform: uppercase; }
+      .mobileMenu ul li img {
+        float: right;
+        top: -2px;
+        position: relative; }
+
+.mobileMenu::before {
+  filter: blur(10px);
+  width: 100%; }
+
+.styles_overlay__CLSq- {
+  z-index: 11000; }
+
+.styles_modal__gNwvD {
+  padding: 0;
+  width: 375px;
+  border-radius: 10px; }
+  .styles_modal__gNwvD .header {
+    padding: 35px 25px 28px; }
+    .styles_modal__gNwvD .header button {
+      font-size: 16px;
+      font-family: GothamBold;
+      background: none;
+      border: none;
+      outline: none;
+      text-transform: uppercase;
+      margin-right: 40px;
+      padding: 0;
+      color: #bebebe;
+      padding-bottom: 4px; }
+      .styles_modal__gNwvD .header button.active {
+        color: #2a2a2a;
+        border-bottom: 2px solid #2a2a2a; }
+  .styles_modal__gNwvD .modalcontent {
+    padding: 50px 25px 40px;
+    background: #f2f2f2;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px; }
+    .styles_modal__gNwvD .modalcontent label {
+      font-size: 10px;
+      font-family: GothamBold;
+      text-transform: uppercase;
+      color: #bebebe; }
+    .styles_modal__gNwvD .modalcontent input {
+      width: 98%;
+      border-radius: 10px;
+      border: none;
+      padding: 10px 0 10px 2%;
+      font-family: GothamLight;
+      outline: none;
+      margin-top: 5px;
+      margin-bottom: 20px; }
+    .styles_modal__gNwvD .modalcontent .input.error input {
+      margin-bottom: 0; }
+    .styles_modal__gNwvD .modalcontent .yellowbutton {
+      margin: auto;
+      margin-top: 20px; }
+    .styles_modal__gNwvD .modalcontent p {
+      font-size: 14px;
+      font-family: GothamLight;
+      border: none; }
+    .styles_modal__gNwvD .modalcontent p.error {
+      margin-top: 27px;
+      text-align: center; }
+  .styles_modal__gNwvD .styles_closeButton__20ID4 {
+    background: url(../../../assets/images/cross_black.svg);
+    width: 27px;
+    height: 27px;
+    outline: none;
+    top: 26px;
+    right: 25px; }
+    .styles_modal__gNwvD .styles_closeButton__20ID4 svg {
+      display: none; }

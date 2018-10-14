@@ -1,0 +1,38 @@
+.checkbox-div{
+    position: relative;
+    input[type='checkbox']{
+      position: absolute;
+      opacity: 0;
+      z-index: 10000;
+      margin: 0;
+      width: 25px;
+      height: 25px;
+    }
+    .checkmark {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 25px;
+      width: 25px;
+      background: url('../../../assets/images/checkbox/unchecked.svg');
+      background-repeat: no-repeat;
+    }
+
+    .checkmark.checked {
+      background: url('../../../assets/images/checkbox/checked.svg');
+      background-repeat: no-repeat;
+    }
+}
+
+.input.error{
+    border-radius: 10px;
+    input{
+        margin: 0;
+        border-radius: 0 !important;
+    }
+    .error_str{
+        width: 97%;
+        padding-left: 3%;
+        margin-top: 0;
+    }
+}

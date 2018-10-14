@@ -1,0 +1,352 @@
+/* Hight class for preview card */
+//.highlight-background {
+//  background: var(--primary) !important;
+//}
+
+//overrides
+// .preview-card-outer-wrap {
+//     p.description {
+//         font-size: 12px;
+//         overflow: hidden;
+//     }
+
+//     .backside {
+//         width: 299px;
+//         height: auto;
+//         background-size: cover;
+//     }
+// }
+
+//end overrides
+
+.createPostcardMessage .content .rightpart {
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    height: 250px;
+
+    .userinfo {
+        width: 62.1%;
+        background-color: #f4f4f4;
+        margin: 7.6px 0 7.3px 2.5%;
+        float: left;
+
+        .userinfo_top {
+            margin: 0 5.7px 0 14.2px;
+            padding: 14.2px 0 0;
+            position: relative;
+
+            .avatar_part {
+                float: left;
+                width: 56.8px;
+                height: 56.8px;
+                padding: 2.8px;
+                z-index: 1000;
+                position: relative;
+                float: left;
+                background-color: #f4f4f4;
+
+                .avatar {
+                    width: 51.2px;
+                    height: 51.2px;
+                    background-color: rgba(230, 230, 230, 0.4);
+                    border-radius: 50%;
+                    border: 2px solid rgba(255, 255, 255, 0.4);
+                    overflow: hidden;
+
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+
+            .userinfo1 {
+                height: auto;
+                min-height: 12px;
+                font-size: 6px;
+                background-color: rgba(230, 230, 230, 0.4);
+                z-index: 999;
+                margin: 0;
+                position: relative;
+
+                &.nobg{
+                    background: none !important;
+                }
+            }
+
+            .userinfo2 {
+                min-height: 123px;
+                z-index: 999;
+                background-color: rgba(230, 230, 230, 0.4);
+                position: relative;
+                margin-top: 9.5px;
+                margin-bottom: 14.2px;
+            }
+
+            p.description{
+                min-height: 135px;
+                font-size: 6px;
+                overflow-wrap: break-word;
+                white-space: pre-wrap;
+                line-height: 1.5;
+            }
+        }
+
+        .userinfo_bottom {
+            p, h3 {
+                background: #2a2a2a;
+                opacity: 1;
+                color: #fff;
+
+                b{
+                    font-family: GothamBold;
+                }
+            }
+
+            h3{
+                font-size: 12px;
+                height: 12px;
+                padding: 9.2px 0 14.8px 16.7px;
+                margin: 0 0 1.6px;
+                letter-spacing: 0.1px;
+                color: #ffffff;
+                font-family: GothamLighter;
+            }
+        }
+    }
+
+    .assets_container {
+        position: relative;
+        opacity: 1;
+        height: 100%;
+        width: 32.2%;
+        float: left;
+        margin: 0 1.6%;
+
+        .avatar{
+            img {
+                margin-top: 24px;
+                margin-left: 35.1px;
+            }
+            margin-bottom: 20px;
+        }
+
+        .rectangle {
+            width: 100%;
+            height: 28.1px;
+            background-color: #e6e6e6;
+        }
+
+        .address_part{
+            font-family: GothamLight;
+            font-size: 6px;
+
+            b{
+                font-family: GothamBold;
+            }
+        }
+
+        .logos {
+            margin-top: 70px;
+
+            img {
+                margin-right: 5%;
+            }
+        }
+    }
+}
+
+.rightpart{
+    position: relative;
+    height: 225px;
+    margin-bottom: 30px !important;
+
+    .button{
+        position: absolute;
+        bottom: -20px;
+        text-transform: uppercase;
+        font-size: 10px;
+        width: auto;
+        padding: 0;
+        &.changemsg{
+            left: 0;
+        }
+        &.flipcard{
+            right: 0;
+        }
+    }
+
+    .content_flip {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        transition: transform 1s;
+        transform-style: preserve-3d;
+
+        .frontside, .backside {
+            position: absolute;
+            backface-visibility: hidden;
+            width: 100%;
+        }
+
+        .frontside {
+            background: white;
+            border-radius: 10px;
+        }
+
+        .backside{
+            background: #fff;
+            overflow: hidden;
+            color: white;
+            border-radius: 5px;
+            transform: rotateY(180deg);
+            z-index: 10000;
+            height: 100%;
+            text-align: center;
+
+            img{
+                height: 100%;
+            }
+
+            &.portrait img{
+                transform: rotate(-90deg);
+                width: 150%;
+                height: auto;
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                margin: auto 0 auto -25%;
+            }
+        }
+    }
+
+    &.normal {
+        .avatar {
+            img {
+                width: 52px;
+                height: 52px;
+                border-radius: 50%;
+            }
+        }
+    }
+
+    &.large {
+
+    }
+
+    &.x-large {
+
+    }
+}
+
+.rightpart.flip .content_flip {
+    transform: rotateY(180deg);
+    transition: transform 0.5s;
+}
+
+.highlight-background {
+    background-color: #edd31c !important;
+}
+
+@media only screen and (min-width: 767px) {
+    .createPostcardMessage .content .rightpart.desktop{
+        .userinfo .userinfo_top p.description{
+            height: auto;
+            overflow: initial;
+            min-height: 220px;
+            font-size: 11px;
+            white-space: pre-wrap;
+            line-height: 1.5;
+        }
+    }
+
+    .createPostcardMessage .content .rightpart.x-large{
+        width: 805px;
+        height: 590px;
+
+        .userinfo{
+            margin: 20.4px 0 20.1px 2.5%;
+
+            .userinfo_top {
+                margin: 0 15.3px 0 38.2px;
+                padding: 30.6px 0 0;
+
+                .avatar_part{
+                    width: 152.9px;
+                    height: 152.9px;
+
+                    .avatar{
+                        width: 137.6px;
+                        height: 137.6px;
+                    }
+                }
+
+                p.userinfo1{
+                    height: auto;
+                    font-size: 12px;
+                    min-height: 30px;
+                }
+
+                p.description{
+                    height: auto;
+                    min-height: 300px;
+                    font-size: 12px;
+                    white-space: pre-wrap;
+                    line-height: 2;
+                }
+            }
+
+            .userinfo_bottom{
+                p{
+                    font-size: 11.9px;
+                    height: 12px;
+                    padding: 4.2px 0 3.3px 45px;
+                    margin: 0 0 4.2px;
+                    font-family: GothamLight;
+                }
+                h3{
+                    font-size: 32.3px;
+                    height: 33px;
+                    padding: 24.6px 0 40.2px 44.2px;
+                }
+            }
+        }
+
+        .assets_container{
+            .avatar{
+                img{
+                    height: 119.8px;
+                    margin-top: 64.6px;
+                    margin-bottom: 26.3px;
+                    margin-left: 107px;
+                }
+            }
+
+            .rectangle{
+                height: 75.6px;
+            }
+
+            .address_part{
+                font-size: 12px;
+            }
+
+            .logos{
+                margin-top: 186.9px;
+
+                img{
+                    height: 51.8px;
+                }
+
+                img:first-child{
+                    height: 45px;
+                }
+            }
+        }
+    }
+
+    .createPostcardMessage .content .rightpart.desktop{
+        height: 455px;
+    }
+}

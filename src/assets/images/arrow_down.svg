@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="9px" viewBox="0 0 20 9" version="1.1" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>ic/arrow/down</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ic/arrow/down" transform="translate(0.000000, -7.000000)">
+            <g>
+                <rect id="Rectangle-4" x="0" y="0" width="20" height="20"></rect>
+                <path d="M10.2812364,14.4136644 C10.2765333,14.4168586 10.2717821,14.4199675 10.2669854,14.4229906 C10.1840354,14.4752266 10.0915193,14.5002045 10.0000595,14.5001188 C9.92930153,14.5001851 9.85791132,14.4852499 9.79084021,14.4542522 C9.7659044,14.4427944 9.74182237,14.4292445 9.71888262,14.4136644 L1.22843387,8.91984459 C0.996592971,8.76982989 0.93025973,8.46027476 1.08027443,8.22843387 C1.23028913,7.99659297 1.53984425,7.93025973 1.77168515,8.08027443 L10.0000595,13.4045167 L18.2284339,8.08027443 C18.4602748,7.93025973 18.7698299,7.99659297 18.9198446,8.22843387 C19.0698593,8.46027476 19.003526,8.76982989 18.7716851,8.91984459 L10.2812364,14.4136644 Z"
+                      id="Combined-Shape" stroke="#CCCCCC" fill="#CCCCCC" stroke-linecap="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

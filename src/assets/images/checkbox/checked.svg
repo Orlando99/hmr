@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>AC64B8F4-2989-49BB-AE21-58137A8286DC</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="22" height="22" rx="5"></rect>
+    </defs>
+    <g id="Desktop-and-mobile-v6" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Build-Postcard-–-Original-–-Step-03C---B" transform="translate(-490.000000, -925.000000)">
+            <g id="Group-3" transform="translate(465.000000, 526.000000)">
+                <g id="Group">
+                    <g id="Group-5-Copy-4" transform="translate(25.000000, 398.000000)">
+                        <g id="checkbox/chosen" transform="translate(0.000000, 1.000000)">
+                            <g>
+                                <g id="Rectangle">
+                                    <use fill="#2A2A2A" fill-rule="evenodd" xlink:href="#path-1"></use>
+                                    <rect stroke="#2A2A2A" stroke-width="2" x="1" y="1" width="20" height="20" rx="5"></rect>
+                                </g>
+                                <polyline id="Check" stroke="#EDD31C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="6 11.5 9.5 15 17.5 7"></polyline>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

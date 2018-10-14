@@ -1,0 +1,408 @@
+.createPostcardMessage .flow-done .socialPart{
+    background: #fff;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    .content{
+        padding: 30px 25px;
+
+        .leftpart, .rightpart{
+            width: auto;
+            height: auto;
+            margin: 0 !important;
+        }
+
+        .leftpart h1{
+            font-size: 18px;
+            margin-top: 15px;
+            text-transform: uppercase;
+        }
+
+        ul{
+            padding: 0;
+            margin: 0;
+
+            li{
+                display: inline-block;
+                margin-right: 10px;
+
+                .yellowbutton{
+                    width: 185px;
+                    margin:0;
+                    font-size: 14px;
+                    position: relative;
+
+                    i{
+                        font-size: 30px;
+                        position: absolute;
+                        left: 17px;
+                        top: 10px;
+
+                        &.round{
+                            border-radius: 50%;
+                            width: 30px;
+                            height: 18px;
+                            padding: 6px 0;
+                            background: #2a2a2a;
+                            color: #edd31c;
+                            font-size: 18px;
+                        }
+                    }
+
+                    span.facebook{
+                        margin-left: 10px;
+                    }
+
+                    span.download{
+                        margin-left: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.donatePart{
+    .rightpart{
+        ul{
+            padding: 0;
+            margin-top: -30px;
+            margin-bottom: -30px;
+
+            li{
+                display: inline-block;
+                margin-right: 120px;
+            }
+
+            li:last-child{
+                margin-right: 29.5px;
+            }
+
+            li .yellowbutton{
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+.leftpart.step4{
+    overflow: hidden;
+
+    h3, p, .yellowbutton{
+        display: block !important;
+    }
+
+    .yellowbutton{
+        margin: 30px auto !important;
+    }
+
+    .summary-wrap{
+        margin-top: 46px;
+
+        h4{
+            margin:0 25px 6px;
+            text-transform: uppercase;
+            font-size: 12px;
+            color: #bebebe;
+        }
+
+        p{
+            display: block !important;
+        }
+
+        p.recipient{
+            font-size: 11px;
+            margin-bottom: 3px;
+
+            span.name{
+                width: 165px;
+            }
+
+            span.price{
+                float: right;
+            }
+        }
+
+        .total{
+            margin-top: 96px;
+            background-color: #2a2a2a;
+            padding: 20px 0;
+            font-family: GothamBold;
+            font-size: 12px;
+
+            p{
+                text-transform: uppercase;
+                font-family: GothamBold;
+
+                span{
+                    float: right;
+                }
+            }
+
+            .discount{
+                color: #9d9d9d;
+                margin-bottom: 10px !important;
+            }
+
+            .estimated{
+                color: #ffffff;
+            }
+        }
+    }
+}
+
+.createPostcardMessage {
+    .mainpart {
+        &.flow-done {
+            margin-top: 0;
+            margin-bottom: -70px;
+            padding: 0;
+                
+            .home_content{
+                background: #fff;
+        
+                .rightpart{
+                    width: auto;
+                    height: auto;
+                }
+        
+                .leftpart{
+                    width: auto;
+                    p{
+                        font-size: 16px;
+                        margin: 0;
+                        display: block;
+                    }
+        
+                    .yellowbutton{
+                        margin-top: 55px;
+                    }
+                }
+            }
+        }
+
+        .content_container {
+            .flow-done-header {
+                text-align: center;
+                h3 {
+                    font-size: 40px;
+                    color: #2a2a2a;
+                    padding-top: 70px;
+                    text-transform: uppercase;
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+}
+
+.step4_submit_footer .bottom_part{
+    display: none;
+}
+
+@media only screen and (min-width: 767px) {
+    .createPostcardMessage{
+        padding-bottom: 0;
+        .flow-done{
+            &.flow-error{
+                padding-top: 30px;
+            }
+
+            .leftpart{
+                margin-bottom: 30px;
+            }
+
+            .centerpart.x-large{
+                width: 804px;
+                text-align: center;
+
+                img{
+                    margin-top: 54px;
+                    margin-bottom: 30px;
+                }
+
+                h3{
+                    margin-top: 0;
+                    margin-bottom: 50px;
+                    font-size: 16px;
+                }
+
+                .yellowbutton{
+                    margin: auto;
+                }
+
+                p{
+                    margin-top: 25px;
+                    margin-bottom: 53px;
+
+                    span{
+                        color: #4a90e2;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .createPostcardMessage .mainpart .content_container {
+        .flow-done-header {
+            text-align: center;
+            h3 {
+                font-size: 24px;
+                color: #2a2a2a;
+                padding-top: 40px;
+                text-transform: uppercase;
+            }
+        }
+    }
+
+    .wallofroars .rightpart{
+        height: auto;
+    }
+
+    .step4_content{
+        display: flex;
+        flex-direction: column;
+
+        .leftpart{
+            order: 3;
+        }
+
+        .centerpart{
+            order: 2;
+        }
+
+        .rightpart {
+            order: 1;
+        }
+    }
+
+    .flow-done{
+        .donatePart{
+            display: none;
+        }
+
+        .wallofroars .yellowbutton.viewAll2{
+            margin-bottom: 60px;
+        }
+    }
+
+    .leftpart.step4{
+        padding-top: 21px;
+
+        h3{
+            margin-top: 0 !important;
+        }
+
+        .yellowbutton{
+            width: 180px;
+            height: 12px;
+            font-family: GothamBold;
+            padding: 15px 0 13px 0 !important;
+            font-size: 12px;
+            color: #2a2a2a;
+        }
+    }
+
+    .createPostcardMessage{
+        padding-bottom: 0;
+
+        .flow-done{
+            .centerpart.x-large{
+                text-align: center;
+                padding: 0;
+
+                img{
+                    margin-top: 50px;
+                    margin-bottom: 20px;
+                }
+
+                h3{
+                    margin-top: 0;
+                    margin-bottom: 45px;
+                    font-size: 14px;
+                }
+
+                .yellowbutton{
+                    margin: auto;
+                }
+
+                p{
+                    margin-top: 25px;
+                    margin-bottom: 53px;
+                    font-size: 14px;
+
+                    span{
+                        color: #4a90e2;
+                    }
+                }
+            }
+        }
+    }
+
+    .createPostcardMessage .flow-done .socialPart{
+        order: 4;
+        .content{
+            background: #fff;
+            padding: 30px 25px 20px;
+            text-align: center;
+            margin-top: 30px;
+
+            .leftpart, .rightpart{
+                width: auto;
+                height: auto;
+                margin: 0 !important;
+            }
+
+            .leftpart h1{
+                font-size: 24px;
+                margin-top: 10px;
+                margin-bottom: 43px;
+                text-transform: uppercase;
+            }
+
+            ul{
+                padding: 0;
+                margin: 0;
+
+                li{
+                    display: inline-block;
+                    margin: 0 0 20px;
+
+                    .yellowbutton{
+                        width: 185px;
+                        font-size: 12px;
+                        height: 12px;
+                        padding: 14px 0 !important;
+                        position: relative;
+                        text-align: left;
+
+                        i{
+                            font-size: 30px;
+                            position: absolute;
+                            left: 10px;
+                            top: 5px;
+                            text-align: center;
+
+                            &.round{
+                                border-radius: 50%;
+                                width: 30px;
+                                height: 18px;
+                                padding: 6px 0;
+                                background: #2a2a2a;
+                                color: #edd31c;
+                                font-size: 18px;
+                            }
+                        }
+
+                        span{
+                            margin-left: 52px !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
